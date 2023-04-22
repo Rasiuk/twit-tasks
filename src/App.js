@@ -1,10 +1,10 @@
-import { Card } from "./components/Card/card";
+import { CardList } from "./components/CarsList/CardList";
 
 function App() {
   return (
     <div>
       here app
-      <Card />
+      <CardList />
     </div>
   );
 }
