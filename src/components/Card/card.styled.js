@@ -14,10 +14,18 @@ export const ListCard = styled.li`
     #5736a3 54.28%,
     #4b2a99 78.99%
   );
+
   background-repeat: no-repeat;
   background-position: center top;
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
+  transform: scale(1);
+  transition: transform 200ms linear;
+  &:hover,
+  :focus {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
 `;
 export const BackgroundImages = styled.div`
   background: url(${backgroundImage});
