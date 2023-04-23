@@ -6,6 +6,9 @@ export const Header = styled.header`
   font-size: 20px;
   line-height: 24px;
   color: #ebd8ff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
   background: linear-gradient(
     114.99deg,
     #471ca9 -0.99%,

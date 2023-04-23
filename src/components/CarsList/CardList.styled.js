@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const List = styled.ul`
   display: flex;
   gap: 40px;
-  max-width: calc(70vw - 14px);
+  padding: 0;
+  max-width: calc(85vw - 14px);
   justify-content: center;
   flex-wrap: wrap;
 `;
