@@ -1,9 +1,9 @@
-import { ListCard } from "../Card/card.styled";
+import { Card } from "../Card/card";
 
 export const CardList = () => {
   return (
     <ul>
-      <ListCard />
+      <Card />
     </ul>
   );
 };
