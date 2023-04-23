@@ -1,10 +1,17 @@
-import { CardList } from "./components/CarsList/CardList";
+import { Route, Routes } from "react-router-dom";
+import { SharedLayout } from "./components/SharedLayout/SharedLayout";
+import { Home } from "./pages/Home";
+import { Tweets } from "./pages/Tweets";
 
 function App() {
   return (
     <div>
-      here app
-      <CardList />
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/tweets" element={<Tweets />} />
+        </Route>
+      </Routes>
     </div>
   );
 }
