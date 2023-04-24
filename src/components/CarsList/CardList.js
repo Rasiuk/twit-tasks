@@ -7,7 +7,6 @@ import { Link } from "../AppBar/AppBar.styled";
 export const CardList = ({ users, backLink }) => {
   const [nextPage, setNextPage] = useState(3);
   const handleMoreCards = (e) => {
-    console.log(users.length);
     setNextPage(nextPage + 3);
   };
   return (
