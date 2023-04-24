@@ -42,4 +42,12 @@ export const Link = styled(NavLink)`
   background: #ebd8ff;
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
   border-radius: 10.3108px;
+  transform: scale(1);
+  transition: transform 200ms linear;
+
+  &:hover,
+  &:focus {
+    background: #5cd3a8;
+    transform: scale(1.05);
+  }
 `;
