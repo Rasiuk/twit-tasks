@@ -5,15 +5,13 @@ import { Tweets } from "./pages/Tweets";
 
 function App() {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<SharedLayout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/tweets" element={<Tweets />} />
-          <Route path="*" element={<Navigate to="/" />} />
-        </Route>
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<SharedLayout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/tweets" element={<Tweets />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Route>
+    </Routes>
   );
 }
 
