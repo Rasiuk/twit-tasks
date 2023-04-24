@@ -8,7 +8,7 @@ function App() {
     <Routes>
       <Route path="/" element={<SharedLayout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/tweets" element={<Tweets />} />
+        <Route path="tweets" element={<Tweets />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Route>
     </Routes>
