@@ -52,14 +52,6 @@ export const HomePage = () => {
           />
           Код відформатований та без коментарів.
         </ListItem>
-        <ListItem>
-          <SkewLoader
-            color="#471CA9"
-            speedMultiplier={0.25}
-            cssOverride={{ marginRight: "16px" }}
-          />
-          Код відформатований та без коментарів.
-        </ListItem>
       </ul>
     </Container>
   );
